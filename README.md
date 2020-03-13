@@ -1,5 +1,6 @@
 # timeseries generator
-Generate common uniformly sampled timeseries using Go
+Generate common uniformly sampled timeseries using Go.
+Used mostly for testing filter functions or other technical analysis indicators
 
 ## Requirements
 - Gonum for plotting in tests:
@@ -21,7 +22,7 @@ go get github.com/MathisWellmann/timeseries-generator
 Tests which generate images are available to get an idea of the function behaviour.
 
 ### Images:
-![gaussian_process](https://github.com/MathisWellmann/timeseries_generator/img/gaussian_process.png)
-![sinewave](https://github.com/MathisWellmann/timeseries_generator/img/sinewave.png)
-![step_function](https://github.com/MathisWellmann/timeseries_generator/img/step_function.png)
-![uniform_process](https://github.com/MathisWellmann/timeseries_generator/img/uniform_process.png)
+![gaussian_process](img/gaussian_process.png)
+![sinewave](img/sinewave.png)
+![step_function](img/step_function.png)
+![uniform_process](img/uniform_process.png)
