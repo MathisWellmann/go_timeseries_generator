@@ -1,4 +1,4 @@
-package timeseries_generator
+package go_timeseries_generator
 
 // GenerateStepFunction generates a step function of given length with midpoint and width
 func StepFunction(length, midPoint, width int) []float64 {

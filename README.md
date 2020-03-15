@@ -18,6 +18,7 @@ go get github.com/MathisWellmann/timeseries-generator
 - StepFunction
 - UniformProcess
 - GaussianProcess
+- OHLCV generator
 
 Tests which generate images are available to get an idea of the function behaviour.
 
@@ -26,7 +27,3 @@ Tests which generate images are available to get an idea of the function behavio
 ![sinewave](img/sinewave.png)
 ![step_function](img/step_function.png)
 ![uniform_process](img/uniform_process.png)
-
-### TODOs:
-- OHLCV generator
-- uniform_mixed which also outputs negative values

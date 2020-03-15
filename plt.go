@@ -1,4 +1,4 @@
-package timeseries_generator
+package go_timeseries_generator
 
 import (
 	"gonum.org/v1/plot"
