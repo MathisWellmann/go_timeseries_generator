@@ -14,6 +14,7 @@ go get github.com/MathisWellmann/timeseries-generator
 ``
 
 ### Functions include:
+- Geometric Brownian Motion
 - SineWave
 - StepFunction
 - UniformProcess
@@ -23,6 +24,7 @@ go get github.com/MathisWellmann/timeseries-generator
 Tests which generate images are available to get an idea of the function behaviour.
 
 ### Images:
+![geometric_brownian_motion](img/geometric_brownian_motion.png)
 ![gaussian_process](img/gaussian_process.png)
 ![sinewave](img/sinewave.png)
 ![step_function](img/step_function.png)
