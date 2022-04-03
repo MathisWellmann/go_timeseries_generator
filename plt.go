@@ -40,10 +40,8 @@ func Plt(vals []float64, filename string) error {
 		Ys: ys,
 	}
 
-	p, err := plot.New()
-	if err != nil {
-		return err
-	}
+	p := plot.New()
+	
 	p.Title.Text = filename
 
 	line, err := plotter.NewLine(values)
